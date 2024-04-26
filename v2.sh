@@ -47,7 +47,7 @@ send "test1\r"
 
 # 端口提示
 expect "端口"
-send "54321\r"
+send "54322\r"
 
 # 安装完成后，设置防火墙规则
 expect eof
