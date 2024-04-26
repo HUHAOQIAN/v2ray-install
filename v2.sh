@@ -38,15 +38,15 @@ expect "是否开放端口，关闭防火墙？"
 send "1\r"
 
 # 等待用户名提示
-expect "设置x-ui登录用户"
+expect "登录用户名"
 send "test1\r"
 
 # 等待密码提示
-expect "设置x-ui登录密"
+expect "密码"
 send "test1\r"
 
 # 端口提示
-expect "设置x-ui登录端"
+expect "端口"
 send "54321\r"
 
 # 安装完成后，设置防火墙规则
