@@ -25,9 +25,9 @@ expect "saved"
 # 运行下载的脚本
 spawn bash install.sh
 
-# 处理安装脚本的菜单选项
-expect "Total download "
-send "y\r"
+# # 处理安装脚本的菜单选项
+# expect "Total download "
+# send "y\r"
 
 # 处理安装脚本的菜单选项
 expect "请输入数字"
